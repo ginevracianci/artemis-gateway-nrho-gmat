@@ -1,0 +1,27 @@
+Create CoordinateSystem LunaInertial;
+LunaInertial.Origin = Luna;
+LunaInertial.Axes = BodyInertial;
+
+Create Spacecraft Gateway;
+Gateway.DateFormat = UTCGregorian;
+Gateway.Epoch = '01 Jan 2025 12:00:00.000';
+Gateway.CoordinateSystem = LunaInertial;
+Gateway.SMA = 10000;
+Gateway.ECC = 0.8;
+Gateway.INC = 90;
+
+Create ForceModel FM;
+FM.CentralBody = Luna;
+FM.PointMasses = {Luna, Earth};
+
+Create Propagator Prop;
+Prop.FM = FM;
+
+Create OrbitView View;
+View.CoordinateSystem = LunaInertial;
+View.Add = {Gateway, Luna, Earth};
+View.ViewScaleFactor = 5;
+
+BeginMissionSequence;
+
+Propagate Prop(Gateway) {Gateway.ElapsedDays = 7};
