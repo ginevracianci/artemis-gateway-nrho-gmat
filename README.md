@@ -33,7 +33,7 @@ This project analyzes Near-Rectilinear Halo Orbit (NRHO) trajectories for the Ar
 
 ## Technical Report
 
-📄 [Full Technical Report (PDF)](docs/nrho_technical_report.pdf)
+📄 [Full Technical Report (PDF)](docs/nrho_technical_report.pdf.pdf)
 
 Comprehensive analysis including:
 - Mission design methodology
