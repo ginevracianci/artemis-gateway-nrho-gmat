@@ -31,6 +31,16 @@ This project analyzes Near-Rectilinear Halo Orbit (NRHO) trajectories for the Ar
 - Orbit characteristics match Artemis Gateway baseline
 - Moon-centered reference frame for station-keeping analysis
 
+## Technical Report
+
+📄 [Full Technical Report (PDF)](docs/nrho_technical_report.pdf)
+
+Comprehensive analysis including:
+- Mission design methodology
+- Force models and propagation
+- Orbital stability results
+- ESA/NASA collaboration aspects
+
 ## References
 
 - [NASA Artemis Gateway](https://www.nasa.gov/gateway)
