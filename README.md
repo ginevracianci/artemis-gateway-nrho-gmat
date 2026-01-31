@@ -5,12 +5,7 @@ Mission analysis and trajectory design for NASA's Artemis Lunar Gateway using GM
 ## Overview
 
 This project analyzes Near-Rectilinear Halo Orbit (NRHO) trajectories for the Artemis Lunar Gateway station, demonstrating lunar transfer design and Gateway orbital mechanics.
-artemis-gateway-nrho-gmat/
-├── scripts/
-├── plots/
-├── docs/
-│   └── nrho_technical_report.pdf
-└── README.md
+
 ## Mission Scenarios
 
 ### NRHO Gateway Orbit
