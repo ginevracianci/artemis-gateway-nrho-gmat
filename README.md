@@ -14,7 +14,7 @@ This project analyzes Near-Rectilinear Halo Orbit (NRHO) trajectories for the Ar
 - **Eccentricity:** 0.8
 - **Inclination:** 90°
 - **Central Body:** Moon
-- **Period:** ~7 days
+- **Period:** ~7 days 
 
 ![NRHO Orbit](plots/nrho_orbit.png)
 
